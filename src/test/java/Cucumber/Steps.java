@@ -3,9 +3,12 @@
  */
 package Cucumber;
 
+import java.util.HashMap;
+
 import Driver.Driver_commonObjects;
 import exceptions.DataSheetException;
 import exceptions.InvalidBrowserException;
+
 
 
 
@@ -78,8 +81,8 @@ public void Grasp_URL_is_given() throws Throwable {
 
 @When("^Enter User Name and Password$")
 public void LoginCredentials() throws Throwable {
-
-	LoginHomePage(username, password);	
+	
+	LoginHomePage();	
 
 }
 @When("^Search the RFS$")
@@ -89,7 +92,7 @@ public void Search_RFS() throws Throwable {
 	//String x=ExcelUtils.getCellData(8, 1);
 	String RFSID=ExcelRetrieve(6, 1);
 	System.out.println("RFS ID"+RFSID);
-	SearchRFS(RFSID);
+	SearchRFS();
 	
 	
 

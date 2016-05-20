@@ -72,6 +72,7 @@ import com.thoughtworks.selenium.webdriven.commands.KeyEvent;
 
 
 
+
 //import UserDetails.UsernameDetails;
 import WebDriver.WebDriverFactory;
 import Utilities.Constant;
@@ -5409,9 +5410,10 @@ public class Driver_commonObjects extends Functions{
 	 * Modified Date:--- ----- ---
 	 */
 
-	public void LoginHomePage(String username, String password){
-		//String username = getValue(Email);
-	//	String password = getValue(Password);
+	public void LoginHomePage(){
+		
+		String username =ExcelRetrieve(8, 1);
+	String password = ExcelRetrieve(9, 1);
 
 		class Local {};
 		Reporter.log("TestStepComponent"+Local.class.getEnclosingMethod().getName());
@@ -5423,18 +5425,26 @@ public class Driver_commonObjects extends Functions{
 			sleep(3000);
 			//click(locator_split("btnLoginArrow"));
 		//	clearWebEdit(locator_split("txtLoginNamegrasp"));
-		driver.get("https://tuchwsmw0301.r1-core.r1.aig.net:20400/prweb/GRASPExt");
+		//driver.get("https://tuchwsmw0301.r1-core.r1.aig.net:20400/prweb/GRASPExt");
+			driver.get("https://www.ultimatix.net");
 		sleep(5000);
-			System.out.println(locator_split("txtLoginNamegrasp"));
-						clearWebEdit(locator_split("txtLoginNamegrasp"));
-			sendKeys(locator_split("txtLoginNamegrasp"), username);
-			sendKeys(locator_split("txtpasswordgrasp"), password);
+			//System.out.println(locator_split("txtLoginNamegrasp"));
+		clearWebEdit(locator_split("txtultimatixuser"));
+		sleep(5000);
+		System.out.println(username);
+		System.out.println(password);
+		sendKeys(locator_split("txtultimatixuser"), username);
+		sendKeys(locator_split("txtultimatixpass"), password);
+						//clearWebEdit(locator_split("txtLoginNamegrasp"));
+			//sendKeys(locator_split("txtLoginNamegrasp"), username);
+			//sendKeys(locator_split("txtpasswordgrasp"), password);
 			//driver.findElement(By.name("USER")).clear();
 			//driver.findElement(By.name("USER")).sendKeys(username);
 		//	driver.findElement(locator_split("txtLoginNamegrasp")).sendKeys(username);
 			//driver.findElement(locator_split("txtpasswordgrasp")).sendKeys(password);
 			//driver.findElement(locator_split("btnlogingrasp")).click();
-			click(locator_split("btnlogingrasp"));
+			//click(locator_split("btnlogingrasp"));
+			click(locator_split("btxultimatix"));
 			//sleep(5000);
 			//driver.findElement(locator_split("btn_privacyok")).click();
 		//click(locator_split("btn_privacyok"));
@@ -5500,6 +5510,7 @@ public class Driver_commonObjects extends Functions{
 	public String  ExcelRetrieve(int row,int col){
 		//String username = getValue(Email);
 	//	String password = getValue(Password);
+		
 
 	//	class Local {};
 		/*Reporter.log("TestStepComponent"+Local.class.getEnclosingMethod().getName());
@@ -5509,6 +5520,7 @@ public class Driver_commonObjects extends Functions{
 		try{
 			sleep(5000);
 			//driver.findElement(locator_split("btn_privacyok")).click();
+			
 			ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"USA");
 			username=ExcelUtils.getCellData(row, col);
 			/*Reporter.log("PASS_MESSAGE:- My Account  is clicked and user is logged in");*/
@@ -7083,7 +7095,7 @@ public class Driver_commonObjects extends Functions{
 	 * Modified Date:--- ----- ---
 	 */
 
-	public void SearchRFS(String RFSID){
+	public void SearchRFS(){
 	//	String RFSID = getValue("RFSName");
 	//	String password = getValue(Password);
 
@@ -7101,6 +7113,7 @@ public class Driver_commonObjects extends Functions{
 			//click(locator_split(subtab));
 			//sleep(3000);
 			//selectList(locator_split("LstLineofBusiness"),1);
+			String RFSID=ExcelRetrieve(6, 1);
 			sendKeys(locator_split("RFSName"),RFSID);
 			sleep(3000);
 			click(locator_split("btnRFSSearch"));
