@@ -1,0 +1,221 @@
+[INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser null 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: null 
+ [ERROR] [Driver_commonObjects] [startWebDriverClient] Unable to start null 
+ java.lang.NullPointerException
+	at Driver.Driver_commonObjects.startWebDriverClient(Driver_commonObjects.java:200)
+	at Driver.Driver_commonObjects.initialization(Driver_commonObjects.java:174)
+	at Cucumber.Steps.this_is_my_first_step(Steps.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+[INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser null 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: null 
+ [ERROR] [Driver_commonObjects] [startWebDriverClient] Unable to start null 
+ java.lang.NullPointerException
+	at Driver.Driver_commonObjects.startWebDriverClient(Driver_commonObjects.java:200)
+	at Driver.Driver_commonObjects.initialization(Driver_commonObjects.java:174)
+	at Cucumber.Steps.this_is_my_first_step(Steps.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+[INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser null 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: null 
+ [ERROR] [Driver_commonObjects] [startWebDriverClient] Unable to start null 
+ java.lang.NullPointerException
+	at Driver.Driver_commonObjects.startWebDriverClient(Driver_commonObjects.java:200)
+	at Driver.Driver_commonObjects.initialization(Driver_commonObjects.java:174)
+	at Driver.Driver_commonObjects.openUrl(Driver_commonObjects.java:552)
+	at Cucumber.Steps.this_is_my_first_step(Steps.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:298)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+[INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (69ae76dc-b8b3-4c2b-8b76-e1c192a7724a) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (a5a60901-1170-4c85-8276-157ce123f877) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (b066da75-8da7-441e-9df6-bb825fed95cc) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (2115cbed-cb83-4123-acd3-637a05bdef25) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (e828572b-02cc-4bb3-84d8-4146bb47b45a) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (08c8be66-6629-4396-ab0e-9911d38e7c8b) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (2056eb79-4f88-4c24-89cd-848484bf7fc9) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (d2e646a4-f6e4-4dbb-9afe-0d3097ee367b) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (2394bd41-fdf3-4419-9dd1-6f1fb3bf0f76) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (a5da900c-882e-4191-87da-18ac16a3bc4a) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (6620c9b6-ddce-4842-9346-f075a311c305) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (b53f7e48-d2ad-49d6-805e-53d1d30ea01a) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (68bd58e6-bbd9-430c-adb2-7b0f07acc616) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (798dd2ad-8ce5-46fe-8dd8-6c251da5e450) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (3817e8a1-a58f-450e-95a4-d5d97261a3f7) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (5c63f7ee-54b9-4f46-8d8d-5159793839ce) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (1211aee4-3cb8-4e2b-9466-b7d5735b679c) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (e065c544-82c6-4000-add4-bb26f4f5e058) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (4c7dca34-2815-4646-9b38-6b853f80a5ca) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (37c25b7c-a041-4dff-b131-506cbd01e342) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (f42e4601-320c-4084-8311-94d9bb0da27d) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (d9384a81-edfb-4a92-95d3-4c8e1dd7fab9) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (045ff23b-c678-4e16-9060-9935178b507a) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (0928421a-226b-481f-bd53-5dc426a97180) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (95cb5d52-363e-46a6-8089-6e8fbc31b97c) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (3d3c18dd-953f-4de2-a193-ff3cf017197c) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (0ac17c43-a9e4-4483-ac11-3b281e32b9dc) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (e9b52b9d-a0c8-4084-b3d1-b2a406c00245) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (5b77022b-b42f-4553-b13e-484b55bd41fa) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (0696d8f1-7a23-4409-81f4-f50e0bfff4f2) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (69e8429d-cf16-4ec8-9ff1-e63215751e00) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (535cd7c3-48c0-4769-b302-6fcbc28a5893) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (f36a18da-2a77-41a3-b282-a9e9445c4f82) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (ceaed676-91a7-48ee-9ff8-df8585ca5086) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (4e6b0857-4b23-4ac7-9cbd-5fcd1968cd5e) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (405b5d86-a705-4d2a-b2c3-87caa1bed357) 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] Starting browser Firefox 
+ [INFO] [WebDriverFactory] [getWebdriver]  
+ [INFO] [WebDriverFactory] [getWebdriver] Browser type: Firefox 
+ [INFO] [Driver_commonObjects] [startWebDriverClient] startWebDriverClient: Started Driver for FirefoxDriver: firefox on WINDOWS (72fc41b9-a6c9-4b5b-9454-00b4396bb3b4) 
+ 

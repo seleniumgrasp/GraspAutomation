@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="71.28924">
+<testcase classname="Grasp Location Assessment" name="Login Scenario" time="44.997799">
+<system-out><![CDATA[Given Grasp URL is given....................................................passed
+When Enter User Name and Password...........................................passed
+Then Grasp Home page is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Grasp Location Assessment" name="Search RFS" time="26.291441">
+<system-out><![CDATA[When Search the RFS.........................................................passed
+Then RFS is displayed.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

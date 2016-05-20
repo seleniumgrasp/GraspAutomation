@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="s" duration-ms="7" started-at="2016-05-04T10:51:21Z" finished-at="2016-05-04T10:51:21Z">
+    <groups>
+    </groups>
+    <test name="t1" duration-ms="7" started-at="2016-05-04T10:51:21Z" finished-at="2016-05-04T10:51:21Z">
+    </test> <!-- t1 -->
+  </suite> <!-- s -->
+</testng-results>
